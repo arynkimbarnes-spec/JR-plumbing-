@@ -1,0 +1,44 @@
+/* Fonts: use the files placed in /fonts */
+@font-face {
+  font-family: 'InterLocal';
+  src: url('../fonts/inter-regular.woff') format('woff'),
+       url('../fonts/inter-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root{
+  --accent:#0077b6;
+  --muted:#666;
+  --bg:#f9f9fb;
+}
+
+*{box-sizing:border-box}
+body{font-family:InterLocal, system-ui, Arial, sans-serif; margin:0; background:var(--bg); color:#111}
+.container{max-width:980px; margin:0 auto; padding:24px}
+.site-header{background:#fff;padding:18px 0;border-bottom:1px solid #eee}
+.site-header h1{margin:0;font-size:22px}
+.site-header nav{margin-top:8px}
+.site-header a{margin-right:12px;text-decoration:none;color:var(--accent)}
+
+.hero{display:flex;gap:24px;align-items:center;padding:40px 0}
+.hero-left{flex:1}
+.hero-right{flex:1;text-align:right}
+.hero-right img{max-width:100%;height:auto;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.tag{color:var(--muted)}
+.service-area{font-weight:600;margin-top:12px}
+.cta{margin-top:16px}
+.cta .call,.cta .whatsapp{display:inline-block;padding:10px 14px;border-radius:6px;text-decoration:none;margin-right:8px}
+.call{background:var(--accent);color:#fff}
+.whatsapp{background:#25D366;color:#fff}
+
+.mini-feat{display:flex;gap:18px;align-items:center;background:#fff;margin:20px 0;padding:12px;border-radius:8px}
+.mini-feat img{width:150px;border-radius:6px}
+
+.site-footer{padding:18px 0;color:var(--muted);text-align:center}
+
+/* Responsive */
+@media (max-width:700px){
+  .hero{flex-direction:column}
+  .hero-right{text-align:left}
+}
