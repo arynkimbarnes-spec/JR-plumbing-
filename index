@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JR Plumbing & Electrical — Cape Town</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>JR Plumbing & Electrical</h1>
+      <p class="tag">Reliable plumbing and electrical services at affordable rates.</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container hero">
+    <section class="hero-left">
+      <h2>We handle:</h2>
+      <ul>
+        <li>Geyser repairs &amp; replacements</li>
+        <li>Leak fixing &amp; pipe installations</li>
+        <li>Electrical fault finding &amp; wiring</li>
+      </ul>
+
+      <p class="service-area">Serving Cape Town &amp; surrounding areas.</p>
+
+      <div class="cta">
+        <a class="call" href="tel:+27715956160">📞 Call 071 595 6160</a>
+        <a class="whatsapp" href="https://wa.me/27715956160" target="_blank">💬 WhatsApp</a>
+      </div>
+
+      <p class="cred">B Tech Plumbing &amp; Electrical – Experts you can trust.</p>
+    </section>
+
+    <aside class="hero-right">
+      <img src="images/toilet.jpg" alt="Toilet / plumbing" />
+    </aside>
+  </main>
+
+  <section class="mini-feat container">
+    <img src="images/leak.jpg" alt="Leak repair" />
+    <div>
+      <h3>Fast same-day service</h3>
+      <p>Reliable, affordable and professional service across Cape Town.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> JR Plumbing & Electrical — Serving Cape Town</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
